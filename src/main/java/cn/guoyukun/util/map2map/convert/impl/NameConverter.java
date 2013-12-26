@@ -12,7 +12,7 @@ import cn.guoyukun.util.map2map.rule.Rule;
  *
  */
 public class NameConverter implements Converter{
-	
+	public static final String TYPE="name";
 	@Override
 	public Object convert(ConvertContext ctx, Rule rule) throws ConvertException{
 		try {
@@ -25,7 +25,7 @@ public class NameConverter implements Converter{
 
 	@Override
 	public String getType() {
-		return "name";
+		return TYPE;
 	}
 
 	@Override

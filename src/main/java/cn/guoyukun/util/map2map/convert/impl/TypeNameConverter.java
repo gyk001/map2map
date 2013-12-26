@@ -13,7 +13,7 @@ import cn.guoyukun.util.map2map.util.ChangeDataTypeUtil;
  * 
  */
 public class TypeNameConverter extends NameConverter implements Converter {
-
+	public static final String TYPE="type-name";
 	@Override
 	public Object convert(ConvertContext ctx, Rule rule)
 			throws ConvertException {
@@ -35,7 +35,7 @@ public class TypeNameConverter extends NameConverter implements Converter {
 
 	@Override
 	public String getType() {
-		return "type-name";
+		return TYPE;
 	}
 
 }

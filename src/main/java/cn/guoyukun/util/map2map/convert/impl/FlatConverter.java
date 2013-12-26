@@ -15,6 +15,7 @@ import cn.guoyukun.util.map2map.util.ConvertOgnlContext;
  *
  */
 public class FlatConverter implements Converter{
+	public static final String TYPE="flat";
 	
 	@Override
 	public Object convert(ConvertContext ctx, Rule rule) throws ConvertException{
@@ -29,7 +30,7 @@ public class FlatConverter implements Converter{
 	
 	@Override
 	public String getType() {
-		return "flat";
+		return TYPE;
 	}
 
 

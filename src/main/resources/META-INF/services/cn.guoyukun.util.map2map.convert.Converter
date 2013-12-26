@@ -5,3 +5,4 @@ cn.guoyukun.util.map2map.convert.impl.FlatConverter
 cn.guoyukun.util.map2map.convert.impl.HierarchyConverter
 cn.guoyukun.util.map2map.convert.impl.ConstConverter
 cn.guoyukun.util.map2map.convert.impl.UUIDConverter
+cn.guoyukun.util.map2map.convert.impl.HierarchyListConverter

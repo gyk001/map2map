@@ -12,7 +12,7 @@ import cn.guoyukun.util.map2map.rule.Rule;
  *
  */
 public class NopeConverter implements Converter{
-	
+	public static final String TYPE="nope";
 	@Override
 	public Object convert(ConvertContext ctx, Rule rule) throws ConvertException{
 		String key = rule.getKey();
@@ -24,7 +24,7 @@ public class NopeConverter implements Converter{
 
 	@Override
 	public String getType() {
-		return "nope";
+		return TYPE;
 	}
 
 	@Override

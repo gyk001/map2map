@@ -16,6 +16,7 @@ import cn.guoyukun.util.map2map.rule.Rule;
  *
  */
 public class UUIDConverter implements Converter{
+	public static final String TYPE="uuid";
 	private LinkedList<String> cachedUUID = new LinkedList<String>();
 	
 	public UUIDConverter() {
@@ -39,7 +40,7 @@ public class UUIDConverter implements Converter{
 
 	@Override
 	public String getType() {
-		return "uuid";
+		return TYPE;
 	}
 
 	/**
